@@ -1,16 +1,13 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* toggle dark mode  ui */
+@import url(./darkModeToggle.css);
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer components {
+  .text-primary {
+    @apply font-sans bg-gray-900 font-extrabold text-transparent bg-clip-text dark:bg-gradient-to-bl from-slate-100 via-slate-100 to-slate-500;
+  }
 }
