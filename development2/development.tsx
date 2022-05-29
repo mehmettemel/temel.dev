@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Development = () => {
-  return <div>Development</div>;
+  return <div>Development2</div>;
 };
 
 export default Development;
