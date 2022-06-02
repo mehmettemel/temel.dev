@@ -11,6 +11,7 @@ const Home: NextPage = () => {
       <main className="flex justify-items-center flex-col">
         <h1 className="text-4xl font-extrabold text-primary">Mehmet Temel</h1>
         <h2 className="text-primary">Front End Developer</h2>
+        <h2 className="text-primary">Front End Developer11</h2>
       </main>
     </Container>
   );
